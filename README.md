@@ -9,7 +9,7 @@ conda create -n environmentName anaconda
 ```bash
 conda activate environmentName
 ```
-- It is required to install Tensorflow GPU and XGBoost as it is not packaged with the full Anaconda installation
+- It is required to install Tensorflow GPU and XGBoost as they are not packaged with the full Anaconda installation
 ```bash
 conda install -c conda-forge tensorflow
 conda install -c conda-forge xgboost
